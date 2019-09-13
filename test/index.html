@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Events</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Cards view -->
+      <div class="cards">
+        <div class="date-sort clearfix">
+          <select name="event-date" class="date-select"></select>
+        </div>
+
+        <div class="data-cards">
+          <ul class="cards-list"></ul>
+        </div>
+      </div>
+      <!-- Form view -->
+      <div class="add-events">
+        <h2 class="events-title">Add events</h2>
+        <form action="" class="events-form">
+          <div class="main-form">
+            <div class="box">
+              <label for="title">title</label>
+              <input type="text" id="title" />
+            </div>
+            <div class="box">
+              <label for="date">date</label>
+              <input type="date" id="date" />
+            </div>
+            <div class="box">
+              <label for="time-start">time-start</label>
+              <input type="time" id="time-start" />
+            </div>
+            <div class="box">
+              <label for="time-finish">time-finish</label>
+              <input type="time" id="time-finish" />
+            </div>
+          </div>
+          <div class="btn clearfix">
+            <input type="button" value="Add" id="add" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

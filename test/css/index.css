@@ -1,0 +1,121 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*  -------------------------  */
+.wrapper {
+  max-width: 100%;
+}
+
+/* --------------------------- */
+
+.date-select {
+  float: right;
+}
+
+.date-sort {
+  margin-bottom: 24px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* ------------------------------- */
+
+.cards {
+  max-width: 80%;
+  margin: 50px auto;
+}
+
+.data-cards {
+  text-align: center;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-item {
+  width: 350px;
+  border: 1px solid #eee;
+  padding: 8px;
+  margin: 8px;
+}
+
+.date-title {
+  background-color: aliceblue;
+  padding: 8px 0;
+  margin-bottom: 16px;
+}
+
+.event-item > div {
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: beige;
+}
+
+/* ------------------------------- */
+
+.add-events {
+  max-width: 30%;
+  margin: 0 auto;
+}
+
+.events-form {
+  background-color: #eee;
+  padding: 8px 16px;
+}
+
+.events-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.main-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.box {
+  width: 45%;
+  padding: 4px 8px;
+}
+
+.box label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.box input {
+  width: 100%;
+}
+
+.btn input {
+  float: right;
+  background-color: rosybrown;
+  border: 0;
+  width: 120px;
+  margin-right: 24px;
+}
